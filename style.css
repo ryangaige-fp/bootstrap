@@ -1,0 +1,22 @@
+.bg-blue {
+    background-color: #3079AB;
+    color: white;
+    
+}
+
+.bg-white {
+    height: 50vh;
+}
+
+.card-white {
+    background: white;
+    padding: 30px;
+    box-shadow: 1px 1px 2px #e7e7e7;
+    border-radius: 4px;
+    margin: 20px 50px;
+
+}
+
+ div {
+    outline: solid black;
+}
