@@ -2,70 +2,68 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <div class="container">
-        <div class="row bg-white">
-            <div class="col-12 text-center">
-                <h1>Two grid tricks</h1>
-            </div>
-            <div class="col-12">
-                <h3>Wrapper around .container or card inside .col</h3>
-            </div>
+  <div class="container-fluid">
+    <div class="row bg-white align-items-center justify-content-center">
+      <div class="col-12 top-col">
+        <h1>Two grid tricks</h1>
+      </div>
+      <div class="col-12 top-col">
+        <h3>Wrapper
+          <span class="bold">around</span>.container or card
+          <span class="bold">inside</span> .col</h3>
+      </div>
 
-        </div>
     </div>
+  </div>
 
-    <div class="container bg-blue">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <div class="card-white">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                        </p>
-                    </div>
-                </div>
+  <div class="container-fluid bg-blue">
+    <div class="row py-5 px-5 text-center">
+      <div class="col-12">
+        <h1>Wrapper around .container</h1>
+      </div>
+      <div class="col-md-6">
+        <h3>One</h3>
+        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem amet, deserunt dicta ratione voluptatum
+          magni eos nulla nemo eveniet pariatur debitis adipisci odio tempore dolorum illum ipsam enim blanditiis itaque.
+        </p>
+      </div>
 
-
-            </div>
-
-            <div class="col-12 col-md-6">
-                <div class="card-white">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                        </p>
-                    </div>
-                </div>
-
-
-            </div>
-
-
-
-
-        </div>
+      <div class="col-md-6">
+        <h3>Two</h3>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam accusantium, reiciendis odit quisquam natus
+          odio necessitatibus saepe corporis ipsa dolorem. Sequi, neque? Sapiente cupiditate, itaque iste nulla totam vero.
+        </p>
+      </div>
     </div>
+  </div>
 
-
-
-
-
-
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="card-white">
+          <!-- card content -->
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="card-white">
+          <!-- card content -->
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
