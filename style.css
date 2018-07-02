@@ -2,17 +2,22 @@
   background-color: #3079ab;
   color: white;
 }
+.bg-grey {
+  background-color: #f0f0f0;
+  color: black;
+}
 
 .bg-white {
   height: 50vh;
 }
+.bold {
+  font-weight: 600;
+}
 
-.card-white {
-  background: white;
-  padding: 30px;
-  box-shadow: 1px 1px 2px #e7e7e7;
-  border-radius: 4px;
-  margin: 20px 50px;
+.top-col {
+  font-family: "Arial";
+  color: #b0b0b0;
+  font-weight: 100;
 }
 
 .card-blue {
@@ -23,14 +28,36 @@
   margin: 20px 50px;
 }
 
-.top-col {
-  color: grey;
+.card-white {
+  background: white;
+  padding: 30px;
+  box-shadow: 1px 1px 2px #e7e7e7;
+  border-radius: 4px;
+  margin: 20px 50px;
 }
 
-.bold {
-  font-weight: bold;
+.middle-col {
+  font-family: "Arial";
+  color: white;
+  font-weight: 100;
 }
 
-div {
+.middle-text-1 {
+  padding: 5px 50px 0px 50px;
+}
+
+.middle-text-2 {
+  padding: 5px 50px 0px 50px;
+}
+.middle-title {
+  padding: 0px 0px 15px 0px;
+}
+
+.bottom-col {
+  font-family: "Arial";
+  color: black;
+  font-weight: 100;
+}
+/* div {
   outline: solid black;
-}
+} */
