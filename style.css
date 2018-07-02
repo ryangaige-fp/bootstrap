@@ -8,7 +8,7 @@
 }
 
 .bg-white {
-  height: 50vh;
+  height: 20vh;
 }
 .bold {
   font-weight: 600;
@@ -23,16 +23,13 @@
 .card-blue {
   background: #3079ab;
   padding: 30px;
-  box-shadow: 1px 1px 2px #e7e7e7;
-  border-radius: 4px;
   margin: 20px 50px;
 }
 
 .card-white {
   background: white;
   padding: 30px;
-  box-shadow: 1px 1px 2px #e7e7e7;
-  border-radius: 4px;
+  box-shadow: 1px 1px 2px black;
   margin: 20px 50px;
 }
 
@@ -43,11 +40,11 @@
 }
 
 .middle-text-1 {
-  padding: 5px 50px 0px 50px;
+  padding: 5px 25px 0px 25px;
 }
 
 .middle-text-2 {
-  padding: 5px 50px 0px 50px;
+  padding: 5px 25px 0px 25px;
 }
 .middle-title {
   padding: 0px 0px 15px 0px;
@@ -57,7 +54,9 @@
   font-family: "Arial";
   color: black;
   font-weight: 100;
+  padding-top: 2%;
 }
+
 /* div {
   outline: solid black;
 } */
